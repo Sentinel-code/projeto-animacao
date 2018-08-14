@@ -1,0 +1,61 @@
+.wrap{
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(23, 149, 233);
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+    
+}
+
+h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.wrap:hover .box{
+    transform: rotate3d(2,2,2,360deg)
+
+}
+
+.box1{
+    background: royalblue;
+    transition: 1s;
+}
+
+.box2{
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.box3{
+    background-color: darkslateblue;
+    transition: 3s;
+}
+
+.box4{
+    background-color: gold;
+    transition: 2s;
+}
+
+.box5{
+    background-color: lightsalmon;
+    transition: 4s;
+}
+
+.box6{
+    background-color: darkorange;
+    transition: 5s;
+}
